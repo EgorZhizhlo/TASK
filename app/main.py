@@ -64,5 +64,5 @@ def delete():
         return Exception
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
     Index(es, INDEX_NAME, df)
+    app.run(host='0.0.0.0', port=5000)
