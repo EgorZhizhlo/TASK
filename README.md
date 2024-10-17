@@ -2,6 +2,9 @@
 
 ![image](https://github.com/user-attachments/assets/de9feb0f-fe61-4f76-aec4-62d5f9dd80ee)
 
+# Описание решения
+Решение было реализовано на Flask. Добавлена визуализация работы в html. Приложение завернуто в Docker. Для корректной загрузки Elasticsearch и создания индекса была реализована система ожидания.
+
 ## Технологический стек
     Python(Flask, pandas)
     Elasticsearch
